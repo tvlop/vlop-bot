@@ -1,0 +1,44 @@
+{
+  "content_templates": {
+    "movie_card": "🎬 *{title}*\n\n📝 *Overview:*\n{overview}\n\n📅 *Release Date:* {release_date}\n🏷️ *Genres:* {genres}\n⭐ *Rating:* {rating}/10\n\n🔍 Result {index} of {total}",
+    "tv_show_card": "📺 *{title}*\n\n📝 *Overview:*\n{overview}\n\n📅 *First Air Date:* {first_air_date}\n🏷️ *Genres:* {genres}\n⭐ *Rating:* {rating}/10\n📊 *Seasons:* {seasons}\n\n🔍 Result {index} of {total}",
+    "trending_header": "🔥 *Trending Now*\n\nHere's what everyone is watching:",
+    "popular_header": "⭐ *Most Popular*\n\nDiscover the most loved content:",
+    "search_header": "🔍 *Search Results for:* \"{query}\"\n\nFound {count} results:"
+  },
+  "status_messages": {
+    "bot_starting": "🤖 VLOP Bot is starting up...",
+    "bot_ready": "✅ VLOP Bot is ready to serve!",
+    "bot_online": "🎉 VLOP Bot running fine on version {version} 🎉",
+    "webhook_set": "🔗 Webhook configured successfully",
+    "api_connected": "🌐 Connected to TMDB API",
+    "database_ready": "💾 Database connection established"
+  },
+  "user_feedback": {
+    "positive": [
+      "Glad I could help you find something great to watch! 😊",
+      "Hope you enjoy watching! 🍿",
+      "Happy to help! Let me know if you need anything else! ✨",
+      "Enjoy your movie/show! Come back anytime! 🎬"
+    ],
+    "negative": [
+      "Sorry that didn't work out. Let me try to help you find something better! 🔄",
+      "No worries! Let's search for something else you might like! 🎯",
+      "That's okay! I'm here to help you find the perfect content! 💪"
+    ]
+  },
+  "easter_eggs": {
+    "movie_quotes": [
+      "\"May the Force be with you!\" - Star Wars 🌟",
+      "\"I'll be back.\" - Terminator 🤖",
+      "\"Here's looking at you, kid.\" - Casablanca 💫",
+      "\"Keep your friends close, but your enemies closer.\" - The Godfather 👑"
+    ],
+    "fun_facts": [
+      "🎬 Did you know? The first movie ever made was in 1888!",
+      "🍿 Fun fact: Americans consume 17 billion quarts of popcorn annually!",
+      "🎭 Movie magic: Most 'glass' in movies is actually made of sugar!",
+      "🎪 Behind the scenes: The MGM lion roar was actually a tiger's roar!"
+    ]
+  }
+}

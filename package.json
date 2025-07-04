@@ -1,0 +1,56 @@
+{
+  "name": "vlop-bot",
+  "version": "0.01",
+  "description": "VLOP Telegram Bot for searching and watching movies and TV shows",
+  "main": "vlop/index.js",
+  "bin": {
+    "vlop": "./vlop/cli.js",
+    "vlop-bot": "./vlop/cli.js"
+  },
+  "scripts": {
+    "start": "node vlop/index.js",
+    "start:render": "node vlop/index.js",
+    "dev": "nodemon vlop/index.js",
+    "build": "echo 'Building VLOP Bot'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node vlop/deploy.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "movies",
+    "tv shows",
+    "streaming",
+    "vlop",
+    "tmdb"
+  ],
+  "config": {
+    "port": "3000",
+    "host": "0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tvlop/vlop-bot.git",
+    "directory": "vlop-bot/telegram"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "node-telegram-bot-api": "^0.64.0",
+    "path": "^0.12.7",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "compression": "^1.7.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "@types/node": "^20.0.0"
+  }
+}

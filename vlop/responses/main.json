@@ -1,0 +1,70 @@
+{
+  "greetings": {
+    "morning": [
+      "Good morning! 🌅 Ready to discover some amazing movies and shows?",
+      "Morning! ☀️ What would you like to watch today?",
+      "Good morning! 🎬 Let's find something great to watch!"
+    ],
+    "afternoon": [
+      "Good afternoon! 🌞 Time for some entertainment?",
+      "Afternoon! 🎭 Looking for something to watch?",
+      "Good afternoon! 🍿 Ready to explore some content?"
+    ],
+    "evening": [
+      "Good evening! 🌙 Perfect time for a movie night!",
+      "Evening! ✨ What's on your watchlist tonight?",
+      "Good evening! 🎪 Let's find something exciting to watch!"
+    ],
+    "general": [
+      "Hello! 👋 How can I help you today?",
+      "Hey there! 🎬 Looking for something to watch?",
+      "Hi! 🍿 Need help finding movies or shows?",
+      "Hello! ✨ Ready to discover great content?"
+    ]
+  },
+  "welcome": {
+    "new_user": "Welcome to VLOP! 🎉\n\nI'm your go-to for movies and shows. I can help you search for content, discover trending shows, and find popular movies.\n\nHere's what I can do for you:\n• 🔍 Search movies and TV shows\n• 🔥 Show trending content\n• ⭐ Display popular content\n• 🎯 Provide personalized recommendations\n\nLet's get started! Use the menu below:",
+    "returning_user": "Welcome back! 🎬 Ready to continue your entertainment journey?",
+    "features": "Here's what I can do for you:\n• 🔍 Search movies and TV shows\n• 🔥 Show trending content\n• ⭐ Display popular"
+  },
+  "help": {
+    "main_help": "Here's how I can help you:\n\n1. 🎬 Search for any movie or TV show\n2. 🔥 See what's trending now\n3. ⭐ Discover popular content\n4. 🎯 Get personalized recommendations\n\nJust click any button in the menu or use these commands:",
+    "commands": [
+      "/search - Search for content",
+      "/trending - See trending content",
+      "/popular - View popular content",
+      "/menu - Show main menu",
+      "/help - Get help"
+    ],
+    "search_help": "To search:\n1. Click '🎬 Search Movies/Shows' or type /search\n2. Enter the name of a movie or TV show\n3. Browse through the results\n4. Click to watch!",
+    "navigation_help": "Use ⬅️ Previous and ➡️ Next buttons to browse through multiple results."
+  },
+  "errors": {
+    "no_results": "Sorry, I couldn't find any matches. Please try another search term.",
+    "api_error": "Sorry, something went wrong. Please try again later.",
+    "search_error": "Sorry, something went wrong with the search. Please try again.",
+    "content_error": "Sorry, I couldn't display this content. Please try again.",
+    "navigation_error": "Sorry, something went wrong while navigating results. Please try a new search.",
+    "network_error": "Network error occurred. Please check your connection and try again."
+  },
+  "loading": {
+    "searching": "🔍 Searching...",
+    "fetching_trending": "🔍 Fetching trending content...",
+    "fetching_popular": "🔍 Fetching popular content...",
+    "loading_details": "📋 Loading details...",
+    "processing": "⚙️ Processing your request..."
+  },
+  "success": {
+    "search_complete": "✅ Search completed! Found {count} results.",
+    "trending_loaded": "🔥 Trending content loaded successfully!",
+    "popular_loaded": "⭐ Popular content loaded successfully!",
+    "content_found": "🎬 Content found! Enjoy watching!"
+  },
+  "prompts": {
+    "search_prompt": "Please enter the name of a movie or TV show you'd like to watch:",
+    "menu_prompt": "What would you like to do?",
+    "continue_prompt": "Would you like to search for something else?",
+    "feedback_prompt": "How was your experience? Rate us!"
+  },
+  "unknown_message": "I'm here to help you find great movies and shows to watch! 🎬\n\nYou can:\n- Search for content\n- See what's trending\n- Find popular shows\n\nJust use the menu below:"
+}

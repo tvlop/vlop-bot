@@ -1,0 +1,84 @@
+{
+  "buttons": {
+    "main_menu": [
+      {
+        "text": "🎬 Search Movies/Shows",
+        "action": "search"
+      },
+      {
+        "text": "🔥 Trending",
+        "action": "trending"
+      },
+      {
+        "text": "⭐ Popular",
+        "action": "popular"
+      },
+      {
+        "text": "❓ Help",
+        "action": "help"
+      }
+    ],
+    "content_actions": [
+      {
+        "text": "▶️ Watch in Telegram",
+        "action": "watch_telegram"
+      },
+      {
+        "text": "🌐 Watch on Web",
+        "action": "watch_web"
+      },
+      {
+        "text": "📝 More Info",
+        "action": "more_info"
+      },
+      {
+        "text": "❤️ Add to Favorites",
+        "action": "add_favorite"
+      }
+    ],
+    "navigation": [
+      {
+        "text": "⬅️ Previous",
+        "action": "previous"
+      },
+      {
+        "text": "➡️ Next",
+        "action": "next"
+      },
+      {
+        "text": "🔄 Refresh",
+        "action": "refresh"
+      },
+      {
+        "text": "🏠 Main Menu",
+        "action": "main_menu"
+      }
+    ]
+  },
+  "inline_keyboards": {
+    "content_keyboard": {
+      "watch_options": [
+        ["▶️ Watch in Telegram", "🌐 Watch on Web"],
+        ["📝 More Info", "❤️ Add to Favorites"]
+      ],
+      "navigation_with_watch": [
+        ["▶️ Watch in Telegram", "🌐 Watch on Web"],
+        ["⬅️ Previous", "➡️ Next"],
+        ["🏠 Main Menu"]
+      ]
+    },
+    "search_keyboard": {
+      "search_options": [
+        ["🎬 Movies", "📺 TV Shows"],
+        ["🔥 Trending", "⭐ Popular"],
+        ["🏠 Main Menu"]
+      ]
+    }
+  },
+  "menu_texts": {
+    "main_menu": "Hey {name}! 👋\nWhat would you like to do?\n\n🎬 Search - Find movies and shows\n🔥 Trending - See what's trending\n⭐ Popular - Most popular content\n❓ Help - Get assistance",
+    "search_menu": "What type of content are you looking for?",
+    "content_menu": "Choose an action for this content:",
+    "navigation_menu": "Use the buttons below to navigate through results."
+  }
+}

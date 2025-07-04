@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: vlop-telegram-bot
+    env: node
+    plan: free
+    buildCommand: npm install --production
+    startCommand: npm run start:render
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TMDB_API_KEY
+        sync: false
+      - key: BASE_URL
+        value: https://vlop.fun
+      - key: WEBHOOK_URL
+        value: https://vlop.fun/webhook
+    healthCheckPath: /health
+    autoDeploy: true
+    repo: https://github.com/tvlop/vlop-bot
+    rootDir: vlop-bot/telegram

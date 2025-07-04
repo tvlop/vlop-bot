@@ -1,0 +1,40 @@
+name = "vlop-bot"
+main = "vlop/index.js"
+compatibility_date = "2025-07-01"
+node_compat = true
+
+[env.production]
+name = "vlop-bot-prod"
+
+[env.staging]
+name = "vlop-bot-staging"
+
+[vars]
+TELEGRAM_BOT_TOKEN = "telegram_bot_token"
+TMDB_API_KEY = "tmdb_api"
+BASE_URL = "https://vlop.fun"
+WEBHOOK_URL = "https://vlop.fun"
+
+[env.production.vars]
+TELEGRAM_BOT_TOKEN = "telegram_bot_token"
+TMDB_API_KEY = "tmdb_api"
+BASE_URL = "https://vlop.fun"
+WEBHOOK_URL = "https://vlop.fun"
+NODE_ENV = "production"
+
+[env.staging.vars]
+TELEGRAM_BOT_TOKEN = "telegram_bot_token"
+TMDB_API_KEY = "tmdb_api"
+BASE_URL = "https://vlop.fun"
+WEBHOOK_URL = "https://vlop.fun"
+NODE_ENV = "staging"
+
+[build]
+command = "npm run build"
+
+[build.upload]
+format = "service-worker"
+
+# Compatibility settings for Node.js modules
+[compatibility_flags]
+nodejs_compat = true
